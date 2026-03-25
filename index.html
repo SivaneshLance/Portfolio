@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./files/tabimage1.svg">
+    <title>Sivanesh Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ═══ LIQUID GLASS NAVBAR ═══ -->
+    <nav id="mainNav">
+        <a href="index.html" class="logo-link">
+            <div class="nav-logo">sk<span>.dev</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="resume.html" target="_self">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-r">
+            <button class="theme-btn" id="themeBtn" title="Toggle theme">🌙</button>
+            <!-- <button class="nav-hire" onclick="openHireModal()">Hire Me</button> -->
+            <a href="mailto:Sivaneshgk2001@gmail.com" class="nav-hire">Hire Me</a>
+            <!-- <a href="files/Resume.pdf" target="_blank" class="nav-hire">
+                Download Resume
+            </a> -->
+            <!-- <a href="#" class="nav-hire" onclick="openResumePrint()">
+                Download Resume
+            </a> -->
+        </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="hero">
+        <div class="hero-mesh"></div>
+        <div class="hero-grid-bg"></div>
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+
+        <div class="hero-inner">
+            <!-- LEFT -->
+            <div class="hero-left">
+                <div class="hero-eyebrow">
+                    <span class="hero-eyebrow-dot"></span>
+                    Available for opportunities · Chennai, India
+                </div>
+
+                <h1 class="hero-name">
+                    <span class="tw-text" id="tw-el"></span><span class="tw-cur" id="tw-cur"></span>
+                </h1>
+
+                <p class="hero-tagline">
+                    ME Computer Science &nbsp;·&nbsp; <strong>ML & Deep Learning Engineer</strong>
+                </p>
+
+                <p class="hero-desc">
+                    Building intelligent systems at the intersection of machine learning and software engineering.
+                    Published researcher. Deep learning practitioner. Always learning, always building.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-main">View My Work</a>
+                    <a href="resume.html" target="_self" class="btn-ghost">See Resume</a>
+                </div>
+            </div>
+
+            <!-- RIGHT — creative card -->
+            <div class="hero-right">
+                <div style="position:relative;padding:1.5rem 0">
+                    <div class="profile-card">
+                        <div class="card-badge">Available</div>
+                        <div class="avatar-ring">
+                            <div class="avatar-inner">SK</div>
+                        </div>
+                        <div class="pc-name">Sivanesh K</div>
+                        <div class="pc-title">Master Of Engineering · CSE Postgraduate</div>
+                        <div class="pc-skills">
+                            <span class="pc-sk hi">Machine Learning</span>
+                            <span class="pc-sk hi">Deep Learning</span>
+                            <span class="pc-sk hi">Python</span>
+                            <span class="pc-sk">React JS</span>
+                            <span class="pc-sk">Linux</span>
+                            <span class="pc-sk">CNN</span>
+                        </div>
+                        <div class="pc-stats">
+                            <div class="pcs">
+                                <div class="pcs-n">2</div>
+                                <div class="pcs-l">Projects</div>
+                            </div>
+                            <div class="pcs">
+                                <div class="pcs-n">2</div>
+                                <div class="pcs-l">Published</div>
+                            </div>
+                            <div class="pcs">
+                                <div class="pcs-n">3+</div>
+                                <div class="pcs-l">Certs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about">
+        <div class="wrap">
+            <div class="about-g">
+                <div class="reveal">
+                    <div class="pill">About Me</div>
+                    <h2 class="st">Driven by curiosity,<br />built on code.</h2>
+                    <div class="about-text">
+                        <p>I'm a Master of Engineering student in Computer Science at St. Joseph's College of
+                            Engineering, building on a strong foundation from Velammal Engineering College (2019–2023).
+                        </p>
+                        <p>My research spans ML-driven sales prediction to deep learning-powered medical diagnostics —
+                            combining statistical rigor with practical engineering to deliver reliable solutions.</p>
+                        <p>I thrive in multidisciplinary environments, translating research ideas into production-ready
+                            systems with clean, efficient code.</p>
+                    </div>
+                    <div class="ci-list">
+                        <div class="ci">
+                            <div class="ci-ic">📧</div>Sivaneshgk2001@gmail.com
+                        </div>
+                        <!-- <div class="ci">
+                            <div class="ci-ic">📱</div>+91 8220488520
+                        </div> -->
+                        <div class="ci">
+                            <div class="ci-ic">📍</div>Pallikaranai, Chennai – 600100
+                        </div>
+                        <div class="ci">
+                            <div class="ci-ic">🌐</div>English · Tamil · Telugu
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal" style="transition-delay:.1s">
+                    <div class="pill">Skills</div>
+                    <div class="sk-list" id="skWrap">
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">Machine Learning</span><span class="sk-v">70%</span>
+                            </div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">Deep Learning / CNN</span><span
+                                    class="sk-v">50%</span></div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="50"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">Python</span><span class="sk-v">70%</span></div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">React JS</span><span class="sk-v">75%</span></div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="75"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">Java / C++ / PHP</span><span class="sk-v">70%</span>
+                            </div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sk-lbl"><span class="sk-n">Linux Administration</span><span
+                                    class="sk-v">50%</span></div>
+                            <div class="sk-track">
+                                <div class="sk-fill" data-w="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PROJECTS ═══ -->
+    <section id="projects">
+        <div class="wrap">
+            <div class="pill reveal">Projects</div>
+            <h2 class="st reveal">What I've built</h2>
+            <p class="ss reveal">Research-backed projects solving real problems with ML and deep learning.</p>
+            <div class="proj-g">
+                <div class="pc2 reveal">
+                    <div class="p-ico ico-b">📈</div>
+                    <h3>Sales Prediction for Newly Launched Mobiles Using ML</h3>
+                    <p>Analysed brand, price, and features to forecast mobile sales using K-Means clustering and Linear
+                        Regression, published in the IJIRSET journal.</p>
+                    <div class="tags"><span class="tg">Python</span><span class="tg">K-Means</span><span
+                            class="tg">Linear Regression</span><span class="tg">Data Analysis</span><span
+                            class="tg">Published</span></div>
+                    <a href="https://www.ijirset.com/upload/2023/ncact'23/69_Prediction.pdf" target="_blank"
+                        class="plink">View Publication →</a>
+                </div>
+                <div class="pc2 reveal" style="transition-delay:.1s">
+                    <div class="p-ico ico-t">🫁</div>
+                    <h3>Smart Radiology System: Pneumonia Detection via VGG16-Enhanced CNN</h3>
+                    <p>
+                        Deep learning system to identify pneumonia from chest X-rays using VGG16-enhanced CNN.
+                        Published in IEEE Conference Proceedings. Enables faster automated medical diagnostics.
+                    </p>
+                    <div class="tags">
+                        <span class="tg">Deep Learning</span>
+                        <span class="tg">VGG16</span>
+                        <span class="tg">CNN</span>
+                        <span class="tg">Medical AI</span>
+                        <span class="tg">Published</span>
+                    </div>
+                    <a href="https://ieeexplore.ieee.org/document/11436696" target="_blank" class="plink">
+                        View Publication →
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- ═══ EDUCATION ═══ -->
+    <section id="education">
+        <div class="wrap">
+            <div class="pill reveal">Education</div>
+            <h2 class="st reveal">Academic Journey</h2>
+            <p class="ss reveal">A strong technical foundation built over years of dedicated study.</p>
+            <div class="timeline">
+                <div class="tl reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-date">2024 – 2026</div>
+                    <h3>Master of Engineering — Computer Science</h3>
+                    <p class="inst">St. Joseph's College of Engineering</p>
+                    <p>Advanced studies in machine learning, deep learning, and intelligent systems. Applying for IEEE
+                        Paper Conference with the Smart Radiology System project.</p>
+                </div>
+                <div class="tl reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-date">2023 – 2025</div>
+                    <h3>Master of Computer Applications (MCA) — Correspondence </h3>
+                    <p class="inst">University of Madras</p>
+                    <p>
+                        Strengthened expertise in software development, machine learning, and data-driven applications.
+                        Developed a Student Dropout Prediction system using the Random Forest algorithm to identify
+                        at-risk students and support early intervention through predictive analytics.
+                    </p>
+                </div>
+                <div class="tl reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-date">2019 – 2023</div>
+                    <h3>Bachelor of Engineering — Computer Science</h3>
+                    <p class="inst">Velammal Engineering College</p>
+                    <p>Core skills in programming, algorithms, and data structures. Published journal paper on ML-based
+                        mobile sales prediction in IJIRSET.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ EXPERIENCE ═══ -->
+    <section id="experience">
+        <div class="wrap">
+            <div class="pill reveal">Experience</div>
+            <h2 class="st reveal">Internship</h2>
+            <p class="ss reveal">Hands-on industry exposure in enterprise system administration.</p>
+            <div class="exp-card reveal">
+                <div class="exp-logo">🖥️</div>
+                <div class="exp-info">
+                    <div class="exp-badge">1.1 Months · Internship</div>
+                    <h3>Vectra Technosoft Pvt. Ltd.</h3>
+                    <p class="role">RedHat Linux — System Administrator</p>
+                    <p>Gained practical experience with Linux commands and server administration in enterprise
+                        environments, including RedHat Linux configuration and system operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact">
+        <div class="wrap">
+            <div class="contact-g">
+                <div class="cl reveal">
+                    <div class="pill">Contact</div>
+                    <h2>Let's work<br />together.</h2>
+                    <p>Open to full-time roles, internships, and research collaborations in ML, AI systems, or software
+                        engineering. Let's build something meaningful.</p>
+                    <a href="mailto:Sivaneshgk2001@gmail.com" class="btn-main" style="display:inline-block">Send an
+                        Email</a>
+                </div>
+                <div class="ci-items reveal" style="transition-delay:.1s">
+                    <div class="cit">
+                        <div class="cit-ico">📧</div>
+                        <div class="cit-d">
+                            <p>Email</p><a href="mailto:Sivaneshgk2001@gmail.com">Sivaneshgk2001@gmail.com</a>
+                        </div>
+                    </div>
+                    <!-- <div class="cit">
+                        <div class="cit-ico">📱</div>
+                        <div class="cit-d">
+                            <p>Phone</p><span>+91 8220488520</span>
+                        </div>
+                    </div> -->
+                    <div class="cit">
+                        <div class="cit-ico">📍</div>
+                        <div class="cit-d">
+                            <p>Location</p><span>Pallikaranai, Chennai – 600100</span>
+                        </div>
+                    </div>
+                    <div class="cit">
+                        <div class="cit-ico">🌐</div>
+                        <div class="cit-d">
+                            <p>Languages</p><span>English · Tamil · Telugu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot-logo">sk.dev</div>
+        <p>© 2025 Sivanesh K — All rights reserved.</p>
+    </footer>
+
+    <!-- ═══ CHATBOT ═══ -->
+    <button class="chat-fab" id="chatFab">
+        <span class="fab-icon">🤖</span>
+        <span class="fab-close">✕</span>
+    </button>
+
+    <div class="chat-win" id="chatWin">
+        <div class="chat-head">
+            <div class="ch-av">🤖</div>
+            <div class="ch-info">
+                <h4>Sivanesh's AI Assistant</h4>
+                <p>Smart Bot · Always Online</p>
+            </div>
+        </div>
+        <div class="chat-msgs" id="chatMsgs"></div>
+        <div class="chat-qp" id="chatQP">
+            <button class="qp" onclick="sq(this)">What are your skills?</button>
+            <button class="qp" onclick="sq(this)">Tell me about projects</button>
+            <button class="qp" onclick="sq(this)">Are you open to work?</button>
+            <button class="qp" onclick="sq(this)">What's your education?</button>
+            <button class="qp" onclick="sq(this)">Contact details</button>
+            <button class="qp" onclick="sq(this)">Certifications</button>
+        </div>
+        <div class="chat-foot">
+            <textarea class="chat-inp" id="chatInp" placeholder="Ask me anything…" rows="1"></textarea>
+            <button class="chat-send-btn" id="chatSend">➤</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

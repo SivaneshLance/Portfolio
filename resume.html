@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/x-icon" href="./files/resumetab1.svg">
+<title>Sivanesh Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══ LIQUID GLASS NAVBAR ═══ -->
+<nav id="mainNav">
+  <a href="index.html" class="logo-link">
+  <div class="nav-logo">sk<span>.dev</span></div>
+</a>
+  <ul class="nav-links">
+    <li><a href="index.html" target="_self">Home</a></li>
+    <li><a href="index.html#about" target="_self">About</a></li>
+    <li><a href="index.html#projects" target="_self">Projects</a></li>
+    <li><a href="resume.html" target="_self">Resume</a></li>
+    <li><a href="index.html#contact" target="_self">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <button class="theme-btn" id="themeBtn" title="Toggle theme">🌙</button>
+    <a href="mailto:Sivaneshgk2001@gmail.com" class="nav-hire">Hire Me</a>
+  </div>
+</nav>
+
+<!-- ═══ RESUME PAGE ═══ -->
+<div class="resume-page-wrap">
+  <div class="pill reveal">Resume</div>
+  <!-- <h2 class="st reveal">Curriculum Vitae</h2> -->
+  <p class="ss reveal">A complete overview of my academic, professional, and technical background.</p>
+
+  <div class="resume-layout reveal">
+    <!-- SIDEBAR -->
+    <div class="resume-sidebar">
+      <div class="rs-avatar">
+  <img src="files/goku-in-sunset-landscape_1920x1080_xtrafondos.com.jpg" alt="Profile Image">
+</div>
+      <div class="rs-name">Sivanesh K</div>
+      <div class="rs-title">ML Engineer · CSE Postgraduate</div>
+
+      <div class="rs-contact">
+        <div class="rs-ci"><span class="rs-ci-ic">📧</span><span>Sivaneshgk2001@gmail.com</span></div>
+        <!-- <div class="rs-ci"><span class="rs-ci-ic">📱</span><span>+91 8220488520</span></div> -->
+        <div class="rs-ci"><span class="rs-ci-ic">📍</span><span>Pallikaranai, Chennai – 600100</span></div>
+      </div>
+
+      <div class="rs-section">
+        <div class="rs-sec-title">Technical Skills</div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>Machine Learning</span><span>70%</span></div><div class="rs-bar"><div class="rs-fill" data-w="70"></div></div></div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>Deep Learning</span><span>50%</span></div><div class="rs-bar"><div class="rs-fill" data-w="50"></div></div></div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>Python</span><span>70%</span></div><div class="rs-bar"><div class="rs-fill" data-w="70"></div></div></div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>React JS</span><span>75%</span></div><div class="rs-bar"><div class="rs-fill" data-w="75"></div></div></div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>Java / C++ / PHP</span><span>70%</span></div><div class="rs-bar"><div class="rs-fill" data-w="70"></div></div></div>
+        <div class="rs-skill-item"><div class="rs-sk-n"><span>Linux Admin</span><span>50%</span></div><div class="rs-bar"><div class="rs-fill" data-w="50"></div></div></div>
+      </div>
+
+      <div class="rs-section">
+        <div class="rs-sec-title">Languages</div>
+        <div class="rs-lang">
+          <span class="rs-lang-chip">English</span>
+          <span class="rs-lang-chip">Tamil</span>
+          <span class="rs-lang-chip">Telugu</span>
+        </div>
+      </div>
+      <button class="resume-dl" onclick="printResume()">
+  🖨️ Download / Print 
+</button>
+
+
+      <!-- <button class="resume-dl" onclick="window.print()">⬇ Download / Print Resume</button> -->
+    </div>
+
+    <!-- MAIN -->
+    <div class="resume-main">
+      <!-- Summary -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Professional Summary</div>
+        <p style="font-size:.875rem;color:var(--text2);line-height:1.9;text-align: justify;">
+          Master of Engineering graduate with strong analytical and problem-solving skills, specializing in machine learning, deep learning, and software engineering. Experienced in applying technical knowledge to build intelligent systems, manage research projects, and collaborate with multidisciplinary teams. Seeking an engineering role to contribute innovative solutions and enhance operational efficiency through technical excellence.
+        </p>
+      </div>
+
+      <!-- Education -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Education</div>
+        <div class="rm-item">
+          <div class="rm-item-head">
+            <h3>Master of Engineering — Computer Science Engineering</h3>
+            <span class="rm-date">2024 – 2026</span>
+          </div>
+          <div class="rm-sub">St. Joseph's College of Engineering</div>
+          <p>Advanced studies in machine learning, deep learning, and intelligent systems design. Currently applying for IEEE Paper Conference with Smart Radiology System project.</p>
+        </div>
+        <div class="rm-item">
+          <div class="rm-item-head">
+            <h3>Bachelor of Engineering — Computer Science Engineering</h3>
+            <span class="rm-date">2019 – 2023</span>
+          </div>
+          <div class="rm-sub">Velammal Engineering College</div>
+          <p>Built core skills in programming, algorithms, data structures, and software engineering. Published research on ML-based sales prediction.</p>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Research Projects</div>
+        <div class="rm-item">
+          <div class="rm-item-head">
+            <h3>Sales Prediction for Newly Launched Mobiles Using ML</h3>
+            <span class="rm-date">Published · 2023</span>
+          </div>
+          <div class="rm-sub">IJIRSET Journal Publication</div>
+          <ul>
+            <li>Analysed factors like brand, price, and features to forecast mobile sales with high accuracy</li>
+            <li>Employed K-Means clustering and Linear Regression as primary ML algorithms</li>
+            <li>Successfully published in the IJIRSET journal (ncact'23 conference track)</li>
+          </ul>
+        </div>
+        <div class="rm-item">
+          <div class="rm-item-head">
+            <h3>Smart Radiology System: Pneumonia Identification via VGG16-Enhanced CNN</h3>
+            <span class="rm-date">IEEE Published · 2025</span>
+          </div>
+          <div class="rm-sub">IEEE Paper Conference</div>
+          <ul>
+            <li>Developed deep learning model to detect pneumonia from chest X-ray images</li>
+            <li>Leveraged VGG16-enhanced CNN architecture for classification with high accuracy</li>
+            <li>Improved diagnostic performance, enabling faster and more reliable medical decision-making</li>
+            <li>Successfully published research paper in IEEE Conference Proceedings (indexed in IEEE Xplore)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Internship Experience</div>
+        <div class="rm-item">
+          <div class="rm-item-head">
+            <h3>Vectra Technosoft Pvt. Ltd.</h3>
+            <span class="rm-date">1.1 Months</span>
+          </div>
+          <div class="rm-sub">RedHat Linux — System Administrator</div>
+          <ul>
+            <li>Learned fundamentals of Linux commands and practical system administration</li>
+            <li>Gained hands-on experience with RedHat Linux server configuration and operations</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Certifications</div>
+        <div class="cert-list">
+          <div class="cert-row"><div class="cert-ic">🏦</div><div class="cert-txt"><h4>Personal Expense Tracker Application</h4><p>IBM Certification</p></div></div>
+          <div class="cert-row"><div class="cert-ic">☕</div><div class="cert-txt"><h4>Java and C++ Crash Course</h4><p>Udemy</p></div></div>
+          <div class="cert-row"><div class="cert-ic">🐘</div><div class="cert-txt"><h4>PHP Crash Course</h4><p>Udemy</p></div></div>
+          <div class="cert-row"><div class="cert-ic">📄</div><div class="cert-txt"><h4>IEEE Paper Applied</h4><p>Smart Radiology System — Pneumonia Project</p></div></div>
+        </div>
+      </div>
+
+      <!-- Additional -->
+      <div class="rm-section">
+        <div class="rm-sec-title">Additional Information</div>
+        <p style="font-size:.875rem;color:var(--text2);line-height:1.9">
+          <strong style="color:var(--text)">Soft Skills:</strong> Strong communication, ability to work independently, team collaboration<br/>
+          <strong style="color:var(--text)">Technical Interests:</strong> Medical AI, Computer Vision, NLP, Full-Stack Development<br/>
+          <strong style="color:var(--text)">Languages:</strong> English, Tamil, Telugu<br/>
+          <strong style="color:var(--text)">Availability:</strong> Open to full-time roles, internships, and research collaborations
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-logo">sk.dev</div>
+  <p>© 2025 Sivanesh K — All rights reserved.</p>
+</footer>
+
+<!-- ═══ CHATBOT ═══ -->
+<button class="chat-fab" id="chatFab">
+  <span class="fab-icon">🤖</span>
+  <span class="fab-close">✕</span>
+</button>
+
+<div class="chat-win" id="chatWin">
+  <div class="chat-head">
+    <div class="ch-av">🤖</div>
+    <div class="ch-info">
+      <h4>Sivanesh's AI Assistant</h4>
+      <p>Smart Bot · Always Online</p>
+    </div>
+  </div>
+  <div class="chat-msgs" id="chatMsgs"></div>
+  <div class="chat-qp" id="chatQP">
+    <button class="qp" onclick="sq(this)">What are your skills?</button>
+    <button class="qp" onclick="sq(this)">Tell me about projects</button>
+    <button class="qp" onclick="sq(this)">Are you open to work?</button>
+    <button class="qp" onclick="sq(this)">What's your education?</button>
+    <button class="qp" onclick="sq(this)">Contact details</button>
+    <button class="qp" onclick="sq(this)">Certifications</button>
+  </div>
+  <div class="chat-foot">
+    <textarea class="chat-inp" id="chatInp" placeholder="Ask me anything…" rows="1"></textarea>
+    <button class="chat-send-btn" id="chatSend">➤</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
